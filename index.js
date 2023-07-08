@@ -36,7 +36,7 @@ app.use("/movies",moviesroute)
 //   console.log(salt)
 //   console.log(hashedPassword);
 // }
-getHassedPassword("password@123")
+// getHassedPassword("password@123")
 
 
 app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
