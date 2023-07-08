@@ -29,13 +29,13 @@ app.use("/movies",moviesroute)
 // })
 
 
-async function getHassedPassword(password){
-  const NO_OF_ROUNDS = 10;
-  const salt = await bcrypt.genSalt(NO_OF_ROUNDS);
-  const hashedPassword = await bcrypt.hash(password,salt);
-  console.log(salt)
-  console.log(hashedPassword);
-}
+// async function getHassedPassword(password){
+//   const NO_OF_ROUNDS = 10;
+//   const salt = await bcrypt.genSalt(NO_OF_ROUNDS);
+//   const hashedPassword = await bcrypt.hash(password,salt);
+//   console.log(salt)
+//   console.log(hashedPassword);
+// }
 getHassedPassword("password@123")
 
 
