@@ -5,6 +5,12 @@
   "private": true,
   "main": "index.js",
   "type": "module",
+  "lerna": "3.22.0",
+  "npmClient": "yarn",
+  "packages": [
+    "package-a",
+    "package-b"
+  ],
   "scripts": {
     "build": "node build.js",
     "start": "node index.js",
