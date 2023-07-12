@@ -54,8 +54,6 @@ router.get("/",async function(request,response){
     : response.status(404).send({msg:"movie not found"})
   })  
   
-  
-  
   // post data
   // express.json() it is an middleware / converts data to json
   router.post("/",async function(request,response){
